@@ -7,21 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E6B798D1D602381009C03E7 /* KIShomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6B798C1D602381009C03E7 /* KIShomeTableViewController.swift */; };
+		7E6B798F1D602394009C03E7 /* KISmessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6B798E1D602394009C03E7 /* KISmessageTableViewController.swift */; };
+		7E6B79911D6023AF009C03E7 /* KISdiscoveryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6B79901D6023AF009C03E7 /* KISdiscoveryTableViewController.swift */; };
+		7E6B79931D6023DB009C03E7 /* KISMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6B79921D6023DB009C03E7 /* KISMainViewController.swift */; };
+		7E6B79971D60295D009C03E7 /* KISPushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6B79961D60295D009C03E7 /* KISPushViewController.swift */; };
+		7E6B799D1D605438009C03E7 /* KISprofileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6B799C1D605438009C03E7 /* KISprofileTableViewController.swift */; };
+		7E6B79A31D60659D009C03E7 /* KISBaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6B79A11D60659D009C03E7 /* KISBaseTableViewController.swift */; };
+		7E6B79A51D6065CC009C03E7 /* KISVisitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6B79A41D6065CC009C03E7 /* KISVisitorView.swift */; };
+		7E6B79A81D61BB74009C03E7 /* Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6B79A71D61BB74009C03E7 /* Define.swift */; };
 		7EC8A4031D5ECBED00020B69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC8A4021D5ECBED00020B69 /* AppDelegate.swift */; };
-		7EC8A4051D5ECBED00020B69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC8A4041D5ECBED00020B69 /* ViewController.swift */; };
-		7EC8A4081D5ECBED00020B69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EC8A4061D5ECBED00020B69 /* Main.storyboard */; };
 		7EC8A40A1D5ECBED00020B69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EC8A4091D5ECBED00020B69 /* Assets.xcassets */; };
 		7EC8A40D1D5ECBED00020B69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EC8A40B1D5ECBED00020B69 /* LaunchScreen.storyboard */; };
+		8FE7625ED0058B5A577C1806 /* Pods_weibodemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8054FE1E0ECAA5749DD4F67A /* Pods_weibodemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2FE15E4A390EB60034AA330A /* Pods-weibodemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weibodemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-weibodemo/Pods-weibodemo.debug.xcconfig"; sourceTree = "<group>"; };
+		70163C26D880B20109710C04 /* Pods-weibodemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weibodemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-weibodemo/Pods-weibodemo.release.xcconfig"; sourceTree = "<group>"; };
+		7E6B798C1D602381009C03E7 /* KIShomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KIShomeTableViewController.swift; sourceTree = "<group>"; };
+		7E6B798E1D602394009C03E7 /* KISmessageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KISmessageTableViewController.swift; sourceTree = "<group>"; };
+		7E6B79901D6023AF009C03E7 /* KISdiscoveryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KISdiscoveryTableViewController.swift; sourceTree = "<group>"; };
+		7E6B79921D6023DB009C03E7 /* KISMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KISMainViewController.swift; sourceTree = "<group>"; };
+		7E6B79961D60295D009C03E7 /* KISPushViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KISPushViewController.swift; sourceTree = "<group>"; };
+		7E6B799C1D605438009C03E7 /* KISprofileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KISprofileTableViewController.swift; sourceTree = "<group>"; };
+		7E6B79A11D60659D009C03E7 /* KISBaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KISBaseTableViewController.swift; sourceTree = "<group>"; };
+		7E6B79A41D6065CC009C03E7 /* KISVisitorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KISVisitorView.swift; sourceTree = "<group>"; };
+		7E6B79A71D61BB74009C03E7 /* Define.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Define.swift; sourceTree = "<group>"; };
 		7EC8A3FF1D5ECBED00020B69 /* weibodemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weibodemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EC8A4021D5ECBED00020B69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7EC8A4041D5ECBED00020B69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7EC8A4071D5ECBED00020B69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7EC8A4091D5ECBED00020B69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EC8A40C1D5ECBED00020B69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7EC8A40E1D5ECBED00020B69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8054FE1E0ECAA5749DD4F67A /* Pods_weibodemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_weibodemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,140 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FE7625ED0058B5A577C1806 /* Pods_weibodemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		336BAF282DE2AA7B7275B9F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8054FE1E0ECAA5749DD4F67A /* Pods_weibodemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E6B79801D602237009C03E7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7E6B79831D602237009C03E7 /* home */,
+				7E6B79861D602237009C03E7 /* message */,
+				7E6B79821D602237009C03E7 /* discovery */,
+				7E6B79841D602237009C03E7 /* Main */,
+				7E6B799B1D605438009C03E7 /* profile */,
+				7E6B798B1D602283009C03E7 /* comm */,
+				7E6B79871D602237009C03E7 /* Others */,
+				7E6B79881D602237009C03E7 /* resource */,
+				7E6B79891D602237009C03E7 /* Tools */,
+				7E6B79811D602237009C03E7 /* Category */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7E6B79811D602237009C03E7 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		7E6B79821D602237009C03E7 /* discovery */ = {
+			isa = PBXGroup;
+			children = (
+				7E6B79901D6023AF009C03E7 /* KISdiscoveryTableViewController.swift */,
+			);
+			path = discovery;
+			sourceTree = "<group>";
+		};
+		7E6B79831D602237009C03E7 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				7E6B798C1D602381009C03E7 /* KIShomeTableViewController.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		7E6B79841D602237009C03E7 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				7E6B79921D6023DB009C03E7 /* KISMainViewController.swift */,
+				7E6B79961D60295D009C03E7 /* KISPushViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		7E6B79861D602237009C03E7 /* message */ = {
+			isa = PBXGroup;
+			children = (
+				7E6B798E1D602394009C03E7 /* KISmessageTableViewController.swift */,
+			);
+			path = message;
+			sourceTree = "<group>";
+		};
+		7E6B79871D602237009C03E7 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				7E6B79A71D61BB74009C03E7 /* Define.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		7E6B79881D602237009C03E7 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		7E6B79891D602237009C03E7 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		7E6B798B1D602283009C03E7 /* comm */ = {
+			isa = PBXGroup;
+			children = (
+				7E6B79A01D60659D009C03E7 /* Controller */,
+				7E6B79A21D60659D009C03E7 /* view */,
+			);
+			path = comm;
+			sourceTree = "<group>";
+		};
+		7E6B799B1D605438009C03E7 /* profile */ = {
+			isa = PBXGroup;
+			children = (
+				7E6B799C1D605438009C03E7 /* KISprofileTableViewController.swift */,
+			);
+			path = profile;
+			sourceTree = "<group>";
+		};
+		7E6B79A01D60659D009C03E7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7E6B79A11D60659D009C03E7 /* KISBaseTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7E6B79A21D60659D009C03E7 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				7E6B79A41D6065CC009C03E7 /* KISVisitorView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		7EC8A3F61D5ECBED00020B69 = {
 			isa = PBXGroup;
 			children = (
 				7EC8A4011D5ECBED00020B69 /* weibodemo */,
 				7EC8A4001D5ECBED00020B69 /* Products */,
+				B6D2454BCFF6CA442A53846A /* Pods */,
+				336BAF282DE2AA7B7275B9F2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +196,21 @@
 			isa = PBXGroup;
 			children = (
 				7EC8A4021D5ECBED00020B69 /* AppDelegate.swift */,
-				7EC8A4041D5ECBED00020B69 /* ViewController.swift */,
-				7EC8A4061D5ECBED00020B69 /* Main.storyboard */,
+				7E6B79801D602237009C03E7 /* Classes */,
 				7EC8A4091D5ECBED00020B69 /* Assets.xcassets */,
 				7EC8A40B1D5ECBED00020B69 /* LaunchScreen.storyboard */,
 				7EC8A40E1D5ECBED00020B69 /* Info.plist */,
 			);
 			path = weibodemo;
+			sourceTree = "<group>";
+		};
+		B6D2454BCFF6CA442A53846A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2FE15E4A390EB60034AA330A /* Pods-weibodemo.debug.xcconfig */,
+				70163C26D880B20109710C04 /* Pods-weibodemo.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7EC8A4111D5ECBED00020B69 /* Build configuration list for PBXNativeTarget "weibodemo" */;
 			buildPhases = (
+				3CC6FBC304DFFEBD27C0AEC9 /* [CP] Check Pods Manifest.lock */,
 				7EC8A3FB1D5ECBED00020B69 /* Sources */,
 				7EC8A3FC1D5ECBED00020B69 /* Frameworks */,
 				7EC8A3FD1D5ECBED00020B69 /* Resources */,
+				AB649DCD54D4ED6D8B251D58 /* [CP] Embed Pods Frameworks */,
+				89BF9B2A3D9F65488FC931E8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -90,6 +242,7 @@
 		7EC8A3F71D5ECBED00020B69 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = KIS;
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "李威";
@@ -125,18 +278,73 @@
 			files = (
 				7EC8A40D1D5ECBED00020B69 /* LaunchScreen.storyboard in Resources */,
 				7EC8A40A1D5ECBED00020B69 /* Assets.xcassets in Resources */,
-				7EC8A4081D5ECBED00020B69 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3CC6FBC304DFFEBD27C0AEC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		89BF9B2A3D9F65488FC931E8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-weibodemo/Pods-weibodemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB649DCD54D4ED6D8B251D58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-weibodemo/Pods-weibodemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7EC8A3FB1D5ECBED00020B69 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EC8A4051D5ECBED00020B69 /* ViewController.swift in Sources */,
+				7E6B79A31D60659D009C03E7 /* KISBaseTableViewController.swift in Sources */,
+				7E6B79931D6023DB009C03E7 /* KISMainViewController.swift in Sources */,
+				7E6B79A51D6065CC009C03E7 /* KISVisitorView.swift in Sources */,
+				7E6B798F1D602394009C03E7 /* KISmessageTableViewController.swift in Sources */,
+				7E6B799D1D605438009C03E7 /* KISprofileTableViewController.swift in Sources */,
+				7E6B798D1D602381009C03E7 /* KIShomeTableViewController.swift in Sources */,
+				7E6B79971D60295D009C03E7 /* KISPushViewController.swift in Sources */,
+				7E6B79911D6023AF009C03E7 /* KISdiscoveryTableViewController.swift in Sources */,
+				7E6B79A81D61BB74009C03E7 /* Define.swift in Sources */,
 				7EC8A4031D5ECBED00020B69 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,14 +352,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7EC8A4061D5ECBED00020B69 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7EC8A4071D5ECBED00020B69 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7EC8A40B1D5ECBED00020B69 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -250,8 +450,10 @@
 		};
 		7EC8A4121D5ECBED00020B69 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FE15E4A390EB60034AA330A /* Pods-weibodemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = weibodemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "--.weibodemo";
@@ -261,8 +463,10 @@
 		};
 		7EC8A4131D5ECBED00020B69 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70163C26D880B20109710C04 /* Pods-weibodemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = weibodemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "--.weibodemo";
@@ -289,6 +493,7 @@
 				7EC8A4131D5ECBED00020B69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
