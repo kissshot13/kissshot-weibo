@@ -26,7 +26,7 @@ class KISBaseTableViewController: UITableViewController,KISVisitorViewDelegate {
     ///创建游客登入界面
     private func setUpVisitorView() {
             
-            visitorView = KISVisitorView()
+            visitorView = KISVisitorView.init()
         
             visitorView?.delegate = self
         

@@ -16,9 +16,19 @@
 		7E6B79A31D60659D009C03E7 /* KISBaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6B79A11D60659D009C03E7 /* KISBaseTableViewController.swift */; };
 		7E6B79A51D6065CC009C03E7 /* KISVisitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6B79A41D6065CC009C03E7 /* KISVisitorView.swift */; };
 		7E6B79A81D61BB74009C03E7 /* Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6B79A71D61BB74009C03E7 /* Define.swift */; };
+		7E901F401D636D22008A4F17 /* KISPopAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E901F3F1D636D22008A4F17 /* KISPopAnimation.swift */; };
+		7EC0CD7A1D63135500BBD818 /* UIBarButtonItem+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0CD791D63135500BBD818 /* UIBarButtonItem+Category.swift */; };
+		7EC0CD7E1D631F8700BBD818 /* KISTitleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0CD7D1D631F8700BBD818 /* KISTitleButton.swift */; };
+		7EC0CD821D6343F800BBD818 /* KISPopTableViewConroller.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EC0CD811D6343F800BBD818 /* KISPopTableViewConroller.storyboard */; };
+		7EC0CD841D634A2B00BBD818 /* KISPopPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0CD831D634A2B00BBD818 /* KISPopPresentationController.swift */; };
 		7EC8A4031D5ECBED00020B69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC8A4021D5ECBED00020B69 /* AppDelegate.swift */; };
 		7EC8A40A1D5ECBED00020B69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EC8A4091D5ECBED00020B69 /* Assets.xcassets */; };
 		7EC8A40D1D5ECBED00020B69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EC8A40B1D5ECBED00020B69 /* LaunchScreen.storyboard */; };
+		7ED438FE1D65967B002939B7 /* KISHShowMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED438FC1D65967B002939B7 /* KISHShowMessageController.swift */; };
+		7ED438FF1D65967B002939B7 /* KISHShowMessageController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7ED438FD1D65967B002939B7 /* KISHShowMessageController.xib */; };
+		7EE722111D63FE4F0038782A /* KISQRCodeController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EE722101D63FE4F0038782A /* KISQRCodeController.storyboard */; };
+		7EE722131D64098D0038782A /* KISQRCodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE722121D64098D0038782A /* KISQRCodeController.swift */; };
+		7EE722481D649A1F0038782A /* KISMyQRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE722471D649A1F0038782A /* KISMyQRCodeViewController.swift */; };
 		8FE7625ED0058B5A577C1806 /* Pods_weibodemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8054FE1E0ECAA5749DD4F67A /* Pods_weibodemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,11 +44,21 @@
 		7E6B79A11D60659D009C03E7 /* KISBaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KISBaseTableViewController.swift; sourceTree = "<group>"; };
 		7E6B79A41D6065CC009C03E7 /* KISVisitorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KISVisitorView.swift; sourceTree = "<group>"; };
 		7E6B79A71D61BB74009C03E7 /* Define.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Define.swift; sourceTree = "<group>"; };
+		7E901F3F1D636D22008A4F17 /* KISPopAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KISPopAnimation.swift; sourceTree = "<group>"; };
+		7EC0CD791D63135500BBD818 /* UIBarButtonItem+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Category.swift"; sourceTree = "<group>"; };
+		7EC0CD7D1D631F8700BBD818 /* KISTitleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KISTitleButton.swift; sourceTree = "<group>"; };
+		7EC0CD811D6343F800BBD818 /* KISPopTableViewConroller.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = KISPopTableViewConroller.storyboard; path = ../view/KISPopTableViewConroller.storyboard; sourceTree = "<group>"; };
+		7EC0CD831D634A2B00BBD818 /* KISPopPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KISPopPresentationController.swift; sourceTree = "<group>"; };
 		7EC8A3FF1D5ECBED00020B69 /* weibodemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weibodemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EC8A4021D5ECBED00020B69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7EC8A4091D5ECBED00020B69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EC8A40C1D5ECBED00020B69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7EC8A40E1D5ECBED00020B69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ED438FC1D65967B002939B7 /* KISHShowMessageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KISHShowMessageController.swift; sourceTree = "<group>"; };
+		7ED438FD1D65967B002939B7 /* KISHShowMessageController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KISHShowMessageController.xib; sourceTree = "<group>"; };
+		7EE722101D63FE4F0038782A /* KISQRCodeController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = KISQRCodeController.storyboard; sourceTree = "<group>"; };
+		7EE722121D64098D0038782A /* KISQRCodeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KISQRCodeController.swift; sourceTree = "<group>"; };
+		7EE722471D649A1F0038782A /* KISMyQRCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KISMyQRCodeViewController.swift; sourceTree = "<group>"; };
 		8054FE1E0ECAA5749DD4F67A /* Pods_weibodemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_weibodemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -82,6 +102,7 @@
 		7E6B79811D602237009C03E7 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				7EC0CD791D63135500BBD818 /* UIBarButtonItem+Category.swift */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -98,6 +119,8 @@
 			isa = PBXGroup;
 			children = (
 				7E6B798C1D602381009C03E7 /* KIShomeTableViewController.swift */,
+				7EC0CD7F1D63438300BBD818 /* contorller */,
+				7EC0CD801D63438300BBD818 /* view */,
 			);
 			path = home;
 			sourceTree = "<group>";
@@ -170,6 +193,23 @@
 			isa = PBXGroup;
 			children = (
 				7E6B79A41D6065CC009C03E7 /* KISVisitorView.swift */,
+				7EC0CD7D1D631F8700BBD818 /* KISTitleButton.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		7EC0CD7F1D63438300BBD818 /* contorller */ = {
+			isa = PBXGroup;
+			children = (
+				7EE7220F1D63FD430038782A /* QRCode */,
+				7EE7220E1D63FD290038782A /* pop */,
+			);
+			path = contorller;
+			sourceTree = "<group>";
+		};
+		7EC0CD801D63438300BBD818 /* view */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -202,6 +242,28 @@
 				7EC8A40E1D5ECBED00020B69 /* Info.plist */,
 			);
 			path = weibodemo;
+			sourceTree = "<group>";
+		};
+		7EE7220E1D63FD290038782A /* pop */ = {
+			isa = PBXGroup;
+			children = (
+				7EC0CD811D6343F800BBD818 /* KISPopTableViewConroller.storyboard */,
+				7EC0CD831D634A2B00BBD818 /* KISPopPresentationController.swift */,
+				7E901F3F1D636D22008A4F17 /* KISPopAnimation.swift */,
+			);
+			name = pop;
+			sourceTree = "<group>";
+		};
+		7EE7220F1D63FD430038782A /* QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				7EE722121D64098D0038782A /* KISQRCodeController.swift */,
+				7EE722101D63FE4F0038782A /* KISQRCodeController.storyboard */,
+				7EE722471D649A1F0038782A /* KISMyQRCodeViewController.swift */,
+				7ED438FC1D65967B002939B7 /* KISHShowMessageController.swift */,
+				7ED438FD1D65967B002939B7 /* KISHShowMessageController.xib */,
+			);
+			name = QRCode;
 			sourceTree = "<group>";
 		};
 		B6D2454BCFF6CA442A53846A /* Pods */ = {
@@ -277,6 +339,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EC8A40D1D5ECBED00020B69 /* LaunchScreen.storyboard in Resources */,
+				7EC0CD821D6343F800BBD818 /* KISPopTableViewConroller.storyboard in Resources */,
+				7EE722111D63FE4F0038782A /* KISQRCodeController.storyboard in Resources */,
+				7ED438FF1D65967B002939B7 /* KISHShowMessageController.xib in Resources */,
 				7EC8A40A1D5ECBED00020B69 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,14 +401,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E901F401D636D22008A4F17 /* KISPopAnimation.swift in Sources */,
 				7E6B79A31D60659D009C03E7 /* KISBaseTableViewController.swift in Sources */,
 				7E6B79931D6023DB009C03E7 /* KISMainViewController.swift in Sources */,
 				7E6B79A51D6065CC009C03E7 /* KISVisitorView.swift in Sources */,
+				7EE722481D649A1F0038782A /* KISMyQRCodeViewController.swift in Sources */,
+				7ED438FE1D65967B002939B7 /* KISHShowMessageController.swift in Sources */,
 				7E6B798F1D602394009C03E7 /* KISmessageTableViewController.swift in Sources */,
+				7EC0CD841D634A2B00BBD818 /* KISPopPresentationController.swift in Sources */,
 				7E6B799D1D605438009C03E7 /* KISprofileTableViewController.swift in Sources */,
+				7EC0CD7A1D63135500BBD818 /* UIBarButtonItem+Category.swift in Sources */,
 				7E6B798D1D602381009C03E7 /* KIShomeTableViewController.swift in Sources */,
+				7EC0CD7E1D631F8700BBD818 /* KISTitleButton.swift in Sources */,
 				7E6B79971D60295D009C03E7 /* KISPushViewController.swift in Sources */,
 				7E6B79911D6023AF009C03E7 /* KISdiscoveryTableViewController.swift in Sources */,
+				7EE722131D64098D0038782A /* KISQRCodeController.swift in Sources */,
 				7E6B79A81D61BB74009C03E7 /* Define.swift in Sources */,
 				7EC8A4031D5ECBED00020B69 /* AppDelegate.swift in Sources */,
 			);
@@ -454,10 +526,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = weibodemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "--.weibodemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -467,6 +541,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = weibodemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "--.weibodemo";

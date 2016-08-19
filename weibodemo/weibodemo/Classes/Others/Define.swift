@@ -13,4 +13,6 @@ let KISBGColor:UIColor = UIColor.orangeColor()
 enum KISControllTpye {
     case home,message,discovery,profile
 }
+/// 二维码图模块通知
+let KISQRCode = "KISQRCodeNotification"
         

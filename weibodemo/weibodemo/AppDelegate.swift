@@ -6,6 +6,11 @@
 //  Copyright © 2016年 李威. All rights reserved.
 //
 
+/*
+ App Key：3003594126
+ App Secret：cb0fdb879d7d5cb3b35e8b8ae7af193a
+ */
+
 import UIKit
 
 @UIApplicationMain
@@ -34,6 +39,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         return true
     }
+    
+    func applicationDidBecomeActive(application: UIApplication) {
+        
+        NSNotificationCenter.defaultCenter().postNotificationName(KISQRCode, object: nil)
+    }
+
 
    
 }

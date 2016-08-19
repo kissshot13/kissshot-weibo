@@ -4,6 +4,9 @@ platform :ios, "8.0"
 use_frameworks!
 
 pod 'KGNAutoLayout'
+pod 'SDWebImage'
+pod 'AFNetworking'
+pod 'SVProgressHUD'
 
 target 'weibodemo' do
 
